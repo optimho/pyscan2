@@ -14,6 +14,7 @@ from LIS2HH12 import LIS2HH12
 from LTR329ALS01 import LTR329ALS01
 import time
 import pycom
+from machine import SD
 
 def sendLoraOk():
     print('send lora OK')
